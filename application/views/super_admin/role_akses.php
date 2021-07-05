@@ -1,0 +1,40 @@
+  <!-- Begin Page Content -->
+  <div class="container-fluid">
+
+      <!-- Page Heading -->
+      <div class="row">
+          <div class="col-lg-7">
+              <div class="table-responsive">
+                  <table class="table table-hover" id="dataTable">
+                      <thead>
+                          <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">Menu</th>
+                              <th scope="col">Akses</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <?php $i = 1;
+                            foreach ($menu  as $m) : ?>
+                              <tr>
+                                  <th scope="row"><?= $i; ?></th>
+                                  <td><?= $m['menu']; ?></td>
+                                  <td>
+                                      <div class="form-check">
+                                          <input class="form-check-input akses-role" type="checkbox" <?= cek_akses($role['id'], $m['id']); ?> data-role="<?= $role['id']; ?>" data-menu="<?= $m['id']; ?>">
+                                      </div>
+                                  </td>
+                              </tr>
+                          <?php $i++;
+                            endforeach; ?>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+      </div>
+
+  </div>
+  <!-- /.container-fluid -->
+
+  </div>
+  <!-- End of Main Content -->

@@ -1,0 +1,144 @@
+body {
+	font-family: "Times new roman";
+}
+
+/* setingan css kop surat */
+.kop-img {
+	width: 70px;
+	height: 70px;
+}
+
+.kop {
+	font-size: 14px;
+	text-align: center;
+	width: 50%;
+	height: 20px;
+	font-weight: bold;
+}
+
+.garis-kop {
+	color: black;
+	height: 3px;
+	margin: 1px;
+}
+
+.tabel-garis {
+	width: 100%;
+	margin-bottom: 35px;
+}
+
+/* akhir setingan css kop surat */
+
+/* setingan css nomor surat */
+.tabel-no-surat {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.judul {
+	font-size: 14px;
+	text-align: center;
+	line-height: 15px;
+	margin-bottom: 1px;
+}
+
+.garis_skTdkMamapu {
+	color: black;
+	width: 37%;
+	margin: 1px;
+}
+
+.garis_skUsaha {
+	color: black;
+	width: 30%;
+	margin: 1px;
+}
+
+.garis_skdomisili {
+	color: black;
+	width: 36%;
+	margin: 1px;
+}
+
+.garis-skKematian {
+	color: black;
+	width: 33%;
+	margin: 1px;
+}
+
+.garis_skSusunanKel {
+	color: black;
+	width: 44%;
+	margin: 1px;
+}
+
+.no_surat {
+	font-size: 14px;
+	text-align: center;
+	line-height: 12px;
+	margin-bottom: 50px;
+	font-style: italic;
+}
+
+/* akhir setingan css nomor surat */
+
+.data{
+	width:100%; 
+	border:0;
+	vertical-align: top
+}
+
+/* atur setingan css tgl dibuat */
+.tgl_sah {
+	height: 70px;
+	width: 35%;
+}
+
+/* akhir atur setingan css tgl dibuat */
+
+/* setingan css pas foto sk domisili */
+.pas_foto {
+	height: 4cm;
+	width: 3cm;
+	border: 1;
+	text-align: center;
+}
+
+/* akhir atur setingan css pas foto sk domisili */
+
+/* atur setingan css ttd */
+.ttd {
+	text-align: center;
+}
+
+.ttd-domisilip {
+	text-align: center;
+	width: 45%;
+}
+
+.ttd_namaDomisili {
+	text-align: center;
+	text-decoration: underline;
+	font-style: bold;
+	text-transform: uppercase;
+	width: 45%;
+}
+
+.kolom_ttd {
+	height: 90px;
+}
+
+.ttd_nama {
+	text-align: center;
+	text-decoration: underline;
+	font-style: bold;
+	text-transform: uppercase;
+}
+
+.nip {
+	margin-top: 2px;
+	text-align: center;
+	font-size: 13px;
+}
+
+/* akhir setingan css ttd */
